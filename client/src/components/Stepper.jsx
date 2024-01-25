@@ -1,10 +1,10 @@
 import Xarrow from "react-xarrows";
+import "animate.css";
 
 const Stepper = ({ index }) => {
   return (
-    <div className="absolute -z-10 ">
+    <div className=" absolute -z-10 ">
       <Xarrow
-        key={index}
         start={`step-${index}`}
         end={`step-${index + 1}`}
         endAnchor="auto"
